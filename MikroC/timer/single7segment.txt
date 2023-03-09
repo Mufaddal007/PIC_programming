@@ -1,0 +1,25 @@
+char seg[]={0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x6F};
+short halfsec,sec;
+void interrupt()
+{
+     if (tmr1if_bit){ halfsec++; if (halfsec==2) {halfsec=0; sec++; if (sec==59){ sec=0; mins++;}} tmr1if_bit=0; tmr1h=0x0B; tmr1l=0xDC;}
+}
+
+void start(short a)
+{
+      PORTC.C0=1; TMR1ON_bit=1; TMR1H=30; TMR1L=36; TMR1IF_bit=0;
+  while ((timermins-mins)>0)
+   { short timersecs=a-sec;
+     portb=seg[timersecs]; if (intf_bit) break;} 
+     PORTC.C0=0; TMR1ON_bit=0;
+}
+
+void main()
+{ trisc.c0=1; option_reg=0;  gie_bit=1; peie_bit=1;  inte_bit=1;  intf_bit=0;  tmr1ie_bit=1  tmr1if_bit=0; 
+ while(1)
+   { while(!intf_bit){ portc.c0=0; portb=seg[0]; }
+  intf_bit=0; 
+  start(10); 
+  intf_bit=0;
+}
+}

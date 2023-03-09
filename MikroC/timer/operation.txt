@@ -1,0 +1,40 @@
+Hello there! this is my one of my basic projects on pic micoronctroller. 
+I am going to tell you how to operate it. though at some point it might seem confusing. 
+but stay with me I will try to explain as much as I could. 
+There are two  PUSH BUTTONS named :
+1) MODE1_sel / RST /START
+2) MODE2_sel / INC
+
+As you can see in their names, the first button is responsible for three functions these are mode 1 selector  , reset button and start button. 
+and the second button is responsible for mode 2 selection , and increment. 
+As soon as you power up  the timer. the first thing you will see is 4 zeroes appearing on the display (without blinking).
+Now you have two options mode 1 and mode 2:
+
+mode 1: programmable timer mode.
+mode 2: fixed timer mode. 
+
+first I am going to explain fixed timer mode 
+so as you press mode 2 button , the 4 zeroes will start blinking, this  will indicate that timer is in fixed mode. Now  again you have two choices 
+
+mode 1: 25 minutes.
+mode 2: 15 minutes.
+
+if you press mode 1 switch than 25 minutes fixed timer will be activated and led will start glowing. similarly mode 2 button will activate 15 minutes timer.
+as the timer is running and you want to reset than you just have to press mode 1 button with reset functionality. 
+
+Now comming to programmable mode 
+suppose now the timer has just been powered up and now you pressed mode 1, than three zeroes without blink will appear on the display , indicating you have entered
+programmable mode. 
+now you have two choices 
+
+1) mode 1: +10 increment 
+2) mode 2: +1 increment
+
+as soon as you press one of buttons than two zeroes will appear without blink , now What you have to do is use the  INC (Mode 2) button to set the timing. whether it is 
++10 increment or +1 increment, after you have reached your preferred timing figure. You just have to press start button (mode 1). And while the timer is running and you want to reset 
+you have your reset button (mode 1). I am going to attach the flowchart of mode selection in an image format.  if you like this project do share it with your friends. 
+Thankyou.
+***note:- you can see there is slight malfunction when you press the increment button because you will see the figures are not incrementing as +10 or +1, it might 
+go as +20 or +2 this is just on proteus simulation. but when you implement it on physical device , you won't get this errors. 
+
+ 

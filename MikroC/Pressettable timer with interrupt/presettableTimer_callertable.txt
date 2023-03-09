@@ -1,0 +1,25 @@
+main
+	__CC2DW
+		____DoICP
+	mode1
+		start
+			Div_16x16_S
+				Div_16x16_S_L
+			stop
+		stop
+	mode2
+		mode21
+			Div_16x16_S
+				Div_16x16_S_L
+			start
+				Div_16x16_S
+					Div_16x16_S_L
+				stop
+		mode22
+			Div_16x16_S
+				Div_16x16_S_L
+			start
+				Div_16x16_S
+					Div_16x16_S_L
+				stop
+Interrupt

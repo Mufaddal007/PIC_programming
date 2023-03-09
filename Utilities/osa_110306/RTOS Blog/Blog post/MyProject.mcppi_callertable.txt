@@ -1,0 +1,26 @@
+main
+	Thread1
+		_OS_InitDelay
+		_OS_ReturnSave
+			_OS_SET_FSR_CUR_TASK
+	Thread2
+		_OS_InitDelay
+		_OS_ReturnSave
+			_OS_SET_FSR_CUR_TASK
+	Thread3
+		_OS_InitDelay
+		_OS_ReturnSave
+			_OS_SET_FSR_CUR_TASK
+	Thread4
+		_OS_InitDelay
+		_OS_ReturnSave
+			_OS_SET_FSR_CUR_TASK
+	OS_Init
+	_OS_Task_Create
+	InitTimer0
+	Mul_16x16_U
+	_OS_JumpToTask
+		_OS_SET_FSR_CUR_TASK
+	_OS_SET_FSR_CUR_TASK
+Interrupt
+	Mul_16x16_U

@@ -1,0 +1,8 @@
+<TimerConfig xmlns="http://www.mikroe.com/TimerCalculator">
+	<McuFamily>0</McuFamily>
+	<TimerNumber>2</TimerNumber>
+	<Frequency>8000000</Frequency>
+	<InterruptTime>0.01</InterruptTime>
+	<Oscilator>False</Oscilator>
+	<Adjusted>1</Adjusted>
+</TimerConfig>

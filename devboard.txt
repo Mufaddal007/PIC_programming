@@ -1,0 +1,17 @@
+1) Usb-to-serial converter //Communication peripheral
+2) Lcd  (6)    //I/O peripheral, output
+3) Push button array (8) //I/O peripheral, input
+4) L293d driver (4)     //I/O peripheral, output
+5) External EEPROM (2)  //Memory peripheral
+6) Reset button          
+7) Voltage regulator  
+8) 3 LEDs     (3)        //Output
+9) 2 Micros (1 master , 2nd GPIO expander)  
+10) Rtc module  (2)   //  Input+Ouput
+11) Bluetooth module (2)  //Communication peripheral
+12) Temperature sensor (1) // Input
+13) ICSP header  
+14) 4 digit 7 segment (11) // Output 
+15) Pot(analog) and push button(digital) (2) // Input
+16) Battery power for backup 
+17) Buzzer     

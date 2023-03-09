@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F676 -DL -O11111114 -fo4 -N"C:\Users\Mufaddal Darbar\Desktop\New folder\led blink f676\ledblink.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Mufaddal Darbar\Desktop\New folder\led blink f676\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "ledblink.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 48 [bytes], Available ROM: 1024 [bytes]	 
+diagnostics: 0	122	Compilation Started	ledblink.c
+diagnostics: 16	123	Compiled Successfully	ledblink.c
+diagnostics: 0	127	All files Compiled in 109 ms	 
+hint: 0	1144	Used RAM (bytes): 2 (4%)  Free RAM (bytes): 46 (96%)	Used RAM (bytes): 2 (4%)  Free RAM (bytes): 46 (96%)
+hint: 0	1144	Used ROM (program words): 38 (4%)  Free ROM (program words): 986 (96%)	Used ROM (program words): 38 (4%)  Free ROM (program words): 986 (96%)
+diagnostics: 0	125	Project Linked Successfully	ledblink.mcppi
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'ledblink.mcppi' completed: 141 ms	 
+diagnostics: 0	103	Finished successfully: 05 Sep 2021, 12:30:15	ledblink.mcppi

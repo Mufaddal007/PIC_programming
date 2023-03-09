@@ -1,0 +1,14 @@
+1) solar tracking system
+2) solar energy measurement system
+3)  Basic functin generator
+4) Basic oscilloscope
+5) signal jammer
+6) solar rover 
+7) Morse code encoder and decoder 
+8) 4 channel relay module 
+9) calculator 
+10) sd card interfacing 
+11) playing wav file 
+12) recording a wav file 
+13) 12v battery charging circuit using NE555
+14)  

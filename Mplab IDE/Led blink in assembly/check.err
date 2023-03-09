@@ -1,0 +1,3 @@
+Warning[205] D:\MPLABIDE\CHECK.ASM 13 : Found directive in column 1. (ORG)
+Warning[203] D:\MPLABIDE\CHECK.ASM 14 : Found opcode in column 1. (GOTO)
+Message[302] D:\MPLABIDE\CHECK.ASM 18 : Register in operand not in bank 0.  Ensure that bank bits are correct.

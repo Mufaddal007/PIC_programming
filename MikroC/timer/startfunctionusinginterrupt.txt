@@ -1,0 +1,29 @@
+
+char seg[]={0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x6F};
+short halfsec,mins,sec;
+void interrupt()
+{
+     if (tmr1if_bit){ halfsec++; if (halfsec==2) {halfsec=0; sec++; if (sec==59){ sec=0; mins++;}} tmr1if_bit=0; tmr1h=0x0B; tmr1l=0xDC;}
+}
+
+void start(short a)
+{
+      PORTC.C0=1; TMR1ON_bit=1; TMR1H=30; TMR1L=36; TMR1IF_bit=0;
+  while ((timermins-mins)>0)
+   {
+    short timermins=a-mins;
+    short timersecs=59-secs;
+    
+    if (!button1 || !button2) break;
+    portc.rc4=0; portb=seg[timermins/10]; delay_ms(10); portc.rc4=1;
+
+    portc.rc5=0; potb=seg[timermins%10]; delay_ms(10); portc.rc5=1;
+
+    portc.rc6=0; portb=seg[timersecs/10]; delay_ms(10); portc.rc6=1;
+    
+    portc.rc7=0; portb=seg[timersecs%10]; delay_ms(10); portc.rc7=1;
+   }
+    PORTC.C0=0; TMR1ON_bit=0;
+     
+}
+

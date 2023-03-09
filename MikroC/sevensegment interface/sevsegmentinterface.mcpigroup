@@ -1,0 +1,6 @@
+[PROJECTS]
+Count=2
+Project0=..\Lcd interfacing\lcdinterfacing.mcppi
+Project1=sevsegmentinterface.mcppi
+[ActiveProject]
+Index=1

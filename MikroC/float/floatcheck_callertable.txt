@@ -1,0 +1,26 @@
+main
+	Lcd_Init
+		Delay_5500us
+		Delay_1us
+	Lcd_Cmd
+		Delay_1us
+		Delay_5500us
+		Delay_50us
+	FloatToStr_FixLen
+		strcpy
+		Compare_Double
+		Mul_32x32_FP
+			RES032
+			SETFOV32
+			SETFUN32
+		Div_8X8_S
+	Lcd_Out
+		Lcd_Cmd
+			Delay_1us
+			Delay_5500us
+			Delay_50us
+		Lcd_Chr_CP
+			Lcd_Cmd
+				Delay_1us
+				Delay_5500us
+				Delay_50us

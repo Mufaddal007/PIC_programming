@@ -1,0 +1,9 @@
+<TimerConfig xmlns="http://www.mikroe.com/TimerCalculator">
+	<McuFamily>9</McuFamily>
+	<TimerNumber>2</TimerNumber>
+	<Frequency>32000000</Frequency>
+	<ClockDivider>1</ClockDivider>
+	<InterruptTime>0.001</InterruptTime>
+	<Oscilator>False</Oscilator>
+	<Adjusted>0</Adjusted>
+</TimerConfig>

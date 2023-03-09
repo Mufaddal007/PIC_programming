@@ -1,0 +1,55 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.026
+Compiler=PCM
+CCSVersion=5.015
+[Target Data]
+FileList=main.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[F:\Electronics\Embeded\PIC Microcontroller\CCS C Compiler\Interfacing LCD\main]
+Type=4
+[mru-list]
+1=main.c
+
+[ProjectLog]
+Days=3
+D1=07-12-2014
+D1_L=10
+D1_L1=[41170]Project Opened.
+D1_L2=[41490]Started Editing.
+D1_L3=[44352]Stopped Editing.
+D1_L4=[46064]Started Editing.
+D1_L5=[46388]Stopped Editing.
+TotalEdit=45
+TotalDebug=0
+D1_E=45
+D1_D=0
+D1_L6=[54698]Project Closed.
+D1_L7=[55419]Project Opened.
+D1_L8=[55428]Started Editing.
+D1_L9=[55730]Stopped Editing.
+D1_L10=[57793]Project Closed.
+D2=08-12-2014
+D2_L=1
+D2_L1=[79231]Project Opened.
+D3=09-12-2014
+D3_L=4
+D3_L1=[41674]Project Closed.
+D3_L2=[41686]Project Opened.
+D3_L3=[41716]Started Editing.
+D3_L4=[42098]Stopped Editing.
+
+[Opened Files]
+1=main.c
+t1=13
+Count=1
+2=D:\dvtest\ledblinktest.X\newmain.c
+t2=1
+3=
+[main.c]
+Type=4
+[Units]
+Count=1
+1=main (main)

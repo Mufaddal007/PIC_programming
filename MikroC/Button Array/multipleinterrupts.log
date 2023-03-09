@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo4 -N"D:\PIC programming\MikroC\Button Array\multipleinterrupts.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\PIC programming\MikroC\Button Array\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "multipleinterrupts.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	multipleinterrupts.c
+diagnostics: 64	123	Compiled Successfully	multipleinterrupts.c
+diagnostics: 0	127	All files Compiled in 9437 ms	 
+hint: 0	1144	Used RAM (bytes): 38 (11%)  Free RAM (bytes): 314 (89%)	Used RAM (bytes): 38 (11%)  Free RAM (bytes): 314 (89%)
+hint: 0	1144	Used ROM (program words): 605 (7%)  Free ROM (program words): 7587 (93%)	Used ROM (program words): 605 (7%)  Free ROM (program words): 7587 (93%)
+diagnostics: 0	125	Project Linked Successfully	multipleinterrupts.mcppi
+diagnostics: 0	128	Linked in 94 ms	 
+diagnostics: 0	129	Project 'multipleinterrupts.mcppi' completed: 9547 ms	 
+diagnostics: 0	103	Finished successfully: 16 Jul 2021, 10:49:41	multipleinterrupts.mcppi

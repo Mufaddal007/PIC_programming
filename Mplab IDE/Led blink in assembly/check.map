@@ -1,0 +1,42 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Wed Nov 04 08:45:40 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x00003a
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00001c      
+            29 out of 2054 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     main   0x000008    program     static D:\mplabide\check.asm    
+                    next1   0x00000f    program     static D:\mplabide\check.asm    
+                    next2   0x000011    program     static D:\mplabide\check.asm    
+                    next3   0x000013    program     static D:\mplabide\check.asm    
+                  poweron   0x000001    program     static D:\mplabide\check.asm    
+                 secdelay   0x00000d    program     static D:\mplabide\check.asm    
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  poweron   0x000001    program     static D:\mplabide\check.asm    
+                     main   0x000008    program     static D:\mplabide\check.asm    
+                 secdelay   0x00000d    program     static D:\mplabide\check.asm    
+                    next1   0x00000f    program     static D:\mplabide\check.asm    
+                    next2   0x000011    program     static D:\mplabide\check.asm    
+                    next3   0x000013    program     static D:\mplabide\check.asm    
+
+

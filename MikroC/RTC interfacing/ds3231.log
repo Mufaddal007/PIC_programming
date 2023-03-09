@@ -1,0 +1,12 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"D:\PIC programming\MikroC\RTC interfacing\ds3231.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\PIC programming\MikroC\RTC interfacing\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "ds3231.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl" "__Lib_SoftI2C.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	ds3231.c
+error: 25	324	Undeclared identifier 'I2C1_Start' in expression	ds3231.c
+error: 26	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 27	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 30	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 31	324	Undeclared identifier 'I2C1_Repeated_Start' in expression	ds3231.c
+error: 32	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 33	324	Undeclared identifier 'I2C1_Rd' in expression	ds3231.c
+error: 34	324	Undeclared identifier 'I2C1_Stop' in expression	ds3231.c
+error: 0	102	Finished (with errors): 10 Nov 2020, 17:23:05	ds3231.mcppi

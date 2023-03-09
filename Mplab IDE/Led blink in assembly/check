@@ -1,0 +1,58 @@
+temp1     equ    0X30
+temp2     equ    0X31
+temp3     equ    0X32
+PORTB     equ    0X06
+TRISB     equ    0X86
+
+list p=16f72
+#include  <P16f72.INC>
+
+  _CONFIG _CP_OFF & _WDT_OFF & _BODEN_OFF & _PWRTE_ON & _HS_OSC 
+
+ORG     0X00
+GOTO    poweron
+
+poweron
+          BANKSEL    TRISB
+          CLRF       TRISB
+          BANKSEL    PORTB
+          CLRF       PORTB
+          CALL       secdelay
+          
+main      
+			BSF        PORTB,3
+			CALL       secdelay 
+			BCF        PORTB,3
+			CALL        secdelay
+			
+			GOTO main
+			
+			
+secdelay
+			MOVLW     OXF0
+			MOVWF     temp1
+			
+nex1
+			MOVLW		OXF0
+			MOVWF		temp2
+next2
+			MOVLW		OXC0
+			MOVWF		temp3
+next3
+			DECFSZ		tem3,1
+			GOTO		next3
+			DECFSZ		temp2,1
+			GOTO		next2
+			DECFSZ		temp1,1
+			GOTO		next1
+			CLRF		temp1
+			CLRF		temp2
+			CLRF		temp3
+			RETURN
+			
+			END
+			
+			
+			
+			
+			

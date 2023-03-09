@@ -1,0 +1,9 @@
+main
+	Init
+	OS_Init
+	_OS_Task_Create
+	_OS_JumpToTask
+		_OS_SET_FSR_CUR_TASK
+	_OS_SET_FSR_CUR_TASK
+interrupt
+	OS_Timer

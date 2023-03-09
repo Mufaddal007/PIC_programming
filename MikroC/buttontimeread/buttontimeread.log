@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo10 -N"C:\Users\Mufaddal Darbar\Desktop\Project dumps\mikroc\buttontimeread\buttontimeread.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Mufaddal Darbar\Desktop\Project dumps\mikroc\buttontimeread\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "buttontimeread.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	buttontimeread.c
+diagnostics: 34	123	Compiled Successfully	buttontimeread.c
+diagnostics: 0	127	All files Compiled in 188 ms	 
+hint: 0	1144	Used RAM (bytes): 63 (18%)  Free RAM (bytes): 289 (82%)	Used RAM (bytes): 63 (18%)  Free RAM (bytes): 289 (82%)
+hint: 0	1144	Used ROM (program words): 807 (10%)  Free ROM (program words): 7385 (90%)	Used ROM (program words): 807 (10%)  Free ROM (program words): 7385 (90%)
+diagnostics: 0	125	Project Linked Successfully	buttontimeread.mcppi
+diagnostics: 0	128	Linked in 31 ms	 
+diagnostics: 0	129	Project 'buttontimeread.mcppi' completed: 375 ms	 
+diagnostics: 0	103	Finished successfully: 06 Jul 2021, 07:59:32	buttontimeread.mcppi

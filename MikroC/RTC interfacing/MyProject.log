@@ -1,0 +1,41 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F72 -DL -O11111114 -fo20 -N"D:\PIC programming\MikroC\RTC interfacing\MyProject.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\PIC programming\MikroC\RTC interfacing\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "rtc.c" "ds3231.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 144 [bytes], Available ROM: 2048 [bytes]	 
+error: 15	304	 error: Can't open include file "ds3231.c"     #include <ds3231.c> 1 error in preprocessor.	D:\PIC programming\MikroC\RTC interfacing\rtc.c
+diagnostics: 0	122	Compilation Started	rtc.c
+error: 19	402	; expected, but '*' found	rtc.c
+error: 26	317	Operator '.' is not applicable to these operands ''	rtc.c
+error: 26	312	Internal error 'undefined aggregate'	rtc.c
+error: 26	312	Internal error 'undefined struct'	rtc.c
+error: 28	324	Undeclared identifier 'SUNDAY' in expression	rtc.c
+error: 28	324	Undeclared identifier 'LCD_Out' in expression	rtc.c
+error: 29	324	Undeclared identifier 'MONDAY' in expression	rtc.c
+error: 29	324	Undeclared identifier 'LCD_Out' in expression	rtc.c
+error: 30	324	Undeclared identifier 'TUESDAY' in expression	rtc.c
+error: 30	324	Undeclared identifier 'LCD_Out' in expression	rtc.c
+error: 31	324	Undeclared identifier 'WEDNESDAY' in expression	rtc.c
+error: 31	324	Undeclared identifier 'LCD_Out' in expression	rtc.c
+error: 32	324	Undeclared identifier 'THURSDAY' in expression	rtc.c
+error: 32	324	Undeclared identifier 'LCD_Out' in expression	rtc.c
+error: 33	324	Undeclared identifier 'FRIDAY' in expression	rtc.c
+error: 33	324	Undeclared identifier 'LCD_Out' in expression	rtc.c
+error: 34	324	Undeclared identifier 'LCD_Out' in expression	rtc.c
+error: 38	324	Undeclared identifier 'sprinti' in expression	rtc.c
+error: 38	402	; expected, but 'mytime' found	rtc.c
+error: 38	424	'}' expected ';' found	rtc.c
+hint: 24	1163	Variable 'txt' has been declared, but not used	rtc.c
+error: 51	312	Internal error ''	rtc.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 177	1354	argument may be out of range []	ds3231.c
+error: 185	324	Undeclared identifier 'I2C1_Start' in expression	ds3231.c
+error: 186	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 187	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 188	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 189	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 190	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 191	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 192	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 193	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 194	324	Undeclared identifier 'I2C1_Wr' in expression	ds3231.c
+error: 195	324	Undeclared identifier 'I2C1_Stop' in expression	ds3231.c
+error: 196	312	Internal error ''	ds3231.c
+error: 0	102	Finished (with errors): 17 Mar 2021, 12:34:21	MyProject.mcppi

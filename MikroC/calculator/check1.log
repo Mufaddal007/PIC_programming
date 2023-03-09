@@ -1,0 +1,8 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F72 -DL -O11111114 -fo20 -N"D:\PIC programming\MikroC\calculator\check1.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\PIC programming\MikroC\calculator\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "check1.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+diagnostics: 0	122	Compilation Started	check1.c
+diagnostics: 45	123	Compiled Successfully	check1.c
+diagnostics: 0	127	All files Compiled in 94 ms	 
+diagnostics: 0	125	Project Linked Successfully	check1.mcppi
+diagnostics: 0	128	Linked in 47 ms	 
+diagnostics: 0	129	Project 'check1.mcppi' completed: 172 ms	 
+diagnostics: 0	103	Finished successfully: 05 Dec 2020, 12:33:34	check1.mcppi

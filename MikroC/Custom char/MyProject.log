@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F72 -DL -O11111114 -fo20 -N"D:\PIC programming\MikroC\Custom char\MyProject.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\PIC programming\MikroC\Custom char\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "custom_char_test.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 144 [bytes], Available ROM: 2048 [bytes]	 
+diagnostics: 0	122	Compilation Started	custom_char_test.c
+diagnostics: 44	123	Compiled Successfully	custom_char_test.c
+diagnostics: 0	127	All files Compiled in 79 ms	 
+hint: 0	1144	Used RAM (bytes): 9 (6%)  Free RAM (bytes): 135 (94%)	Used RAM (bytes): 9 (6%)  Free RAM (bytes): 135 (94%)
+hint: 0	1144	Used ROM (program words): 302 (15%)  Free ROM (program words): 1746 (85%)	Used ROM (program words): 302 (15%)  Free ROM (program words): 1746 (85%)
+diagnostics: 0	125	Project Linked Successfully	MyProject.mcppi
+diagnostics: 0	128	Linked in 15 ms	 
+diagnostics: 0	129	Project 'MyProject.mcppi' completed: 109 ms	 
+diagnostics: 0	103	Finished successfully: 19 Nov 2020, 22:16:01	MyProject.mcppi

@@ -1,0 +1,121 @@
+004     @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+024     i
+025     second
+026     minute
+027     hour
+028     date
+029     month
+02A     year
+02B     @I2C_WRITE_1.P1
+02B     @I2C_READ_1.P2
+02B     edit.x
+02B     decimal_to_bcd.number
+02B     bcd_to_decimal.number
+02B     lcd_init.i
+02C-02F lcd_init.LCD_INIT_STRING
+02C     edit.y
+02C     @I2C_READ_1.@SCRATCH1
+02C     bcd_to_decimal.@SCRATCH1
+02C     decimal_to_bcd.@SCRATCH1
+02D     edit.parameter
+02D     @I2C_READ_1.@SCRATCH2
+02D     bcd_to_decimal.@SCRATCH2
+02E     blink.j
+02E     @PRINTF_U_576.P1
+02E     @MUL88.P2
+02E     @PSTRINGC7_576.@SCRATCH1
+02F     @MUL88.P1
+02F     @PRINTF_U_576.P2
+02F     @PSTRINGC7_576.@SCRATCH2
+030     @DIV88.P1
+030     lcd_init.@SCRATCH1
+030     @PSTRINGC7_576.@SCRATCH3
+031     lcd_putc.c
+031     @DIV88.P1
+031     @PSTRINGC7_576.@SCRATCH4
+032     lcd_gotoxy.x
+032     @delay_ms1.P1
+032     @DIV88.@SCRATCH1
+033     lcd_gotoxy.y
+034     lcd_gotoxy.address
+035     lcd_gotoxy.@SCRATCH1
+036     lcd_send_byte.address
+037     lcd_send_byte.n
+038     lcd_read_byte.low
+038     lcd_send_byte.@SCRATCH1
+039     lcd_send_nibble.n
+039     lcd_read_byte.high
+03A     lcd_read_nibble.n
+03A     lcd_read_byte.@SCRATCH1
+03B     lcd_read_nibble.@SCRATCH1
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const626.call
+000006  @const632.call
+00000D  @const633.call
+000015  @delay_ms1
+000028  lcd_send_nibble
+000046  lcd_read_nibble
+00006B  lcd_send_byte
+000071  lcd_read_byte
+0000AF  lcd_init
+0000EB  lcd_gotoxy
+0000FD  lcd_putc
+000129  @PSTRINGC7_576
+00017F  @DIV88
+000194  @PRINTF_U_576
+0001C9  blink
+0001D8  edit
+000234  decimal_to_bcd
+000246  @I2C_WRITE_1
+00027E  @I2C_READ_1
+0002B5  bcd_to_decimal
+0002BF  @MUL88
+0002EA  ds3231_display
+000345  MAIN
+000345  @cinit1
+00034C  @cinit2
+
+Project Directory:
+    D:\PIC programming\CCS compiler\Rtc interfacing\
+
+Project Files:
+    main.c                                                  [06-Nov-20 13:44  CRC=E43EA3A3]
+    C:\Program Files (x86)\PICC\Devices\16F72.h             [12-Nov-13 14:34  CRC=078218EB]
+    C:\Program Files (x86)\PICC\Drivers\lcd.c               [19-Sep-13 15:38  CRC=D1A6378A]
+
+Source signature=8F0D2BA2
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F72
+    Pointer Size:   8
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA

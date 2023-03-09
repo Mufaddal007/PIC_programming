@@ -1,0 +1,112 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+021     MAIN.i
+022     @PSTRINGCN7_645.P1
+022     @PRINTF_D_645.P2
+022     lcd_init.i
+022     MAIN.@SCRATCH1
+022     @PSTRINGC7_645.@SCRATCH1
+023     @delay_ms2.P1
+023     @PRINTF_D_645.P2
+023-026 lcd_init.LCD_INIT_STRING
+023     @PSTRINGC7_645.@SCRATCH2
+023     @PSTRINGCN7_645.@SCRATCH1
+024     @PSTRINGC7_645.@SCRATCH3
+024     @PSTRINGCN7_645.@SCRATCH2
+024     @PRINTF_D_645.@SCRATCH1
+025     @PSTRINGC7_645.@SCRATCH4
+025     @PSTRINGCN7_645.@SCRATCH3
+025     @PRINTF_D_645.@SCRATCH2
+026     @PSTRINGCN7_645.@SCRATCH4
+026     @PRINTF_D_645.@SCRATCH3
+027     lcd_init.@SCRATCH1
+027     @PRINTF_D_645.@SCRATCH4
+028     lcd_putc.c
+028     @DIV88.P1
+029     @delay_ms1.P1
+029     lcd_gotoxy.x
+029     @DIV88.P1
+02A     lcd_gotoxy.y
+02A     @DIV88.@SCRATCH1
+02B     lcd_gotoxy.address
+02C     lcd_gotoxy.@SCRATCH1
+02D     lcd_send_byte.address
+02E     lcd_send_byte.n
+02F     lcd_read_byte.low
+02F     lcd_send_byte.@SCRATCH1
+030     lcd_read_byte.high
+030     lcd_send_nibble.n
+031     lcd_read_nibble.n
+031     lcd_read_byte.@SCRATCH1
+032     lcd_read_nibble.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const665.call
+00000B  @const667.call
+000011  @const668.call
+000017  @delay_ms1
+00002B  lcd_send_nibble
+000057  lcd_read_nibble
+000088  lcd_send_byte
+000090  lcd_read_byte
+0000E4  lcd_init
+00012A  @delay_ms2
+00013E  lcd_gotoxy
+000150  lcd_putc
+00017C  @PSTRINGC7_645
+0001D2  @PSTRINGCN7_645
+00022B  @DIV88
+000240  @PRINTF_D_645
+000299  @cinit1
+000299  MAIN
+0002A3  @cinit2
+
+Project Directory:
+    C:\Users\YES\Desktop\Interfacing-LCD-with-PIC-Microcontroller-CCS-C\Interfacing LCD with PIC Microcontroller - CCS C\
+
+Project Files:
+    main.c                                                  [06-Nov-20 07:44  CRC=6B757948]
+    main.h                                                  [07-Dec-14 11:26  CRC=00000000]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F877A.h [12-Nov-13 14:35  CRC=81334808]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\lcd.c   [19-Sep-13 15:38  CRC=D1A6378A]
+
+Source signature=8FF53064
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA

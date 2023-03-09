@@ -1,0 +1,5 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F72 -DL -O11111114 -fo20 -N"D:\PIC programming\MikroC\calculator\calci.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\PIC programming\MikroC\calculator\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "calci.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+diagnostics: 0	122	Compilation Started	calci.c
+error: 17	324	Undeclared identifier 'Lcd_Init' in expression	calci.c
+error: 18	324	Undeclared identifier 'Lcd_Command' in expression	calci.c
+error: 0	102	Finished (with errors): 01 Dec 2020, 12:01:32	calci.mcppi

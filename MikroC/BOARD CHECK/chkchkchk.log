@@ -1,0 +1,15 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F72 -DL -O11111114 -fo8 -N"D:\PIC programming\MikroC\board check\chkchkchk.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\PIC programming\MikroC\board check\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "chkchkchk.c" "NewUnit_0.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_A.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 144 [bytes], Available ROM: 2048 [bytes]	 
+diagnostics: 0	122	Compilation Started	chkchkchk.c
+diagnostics: 55	123	Compiled Successfully	chkchkchk.c
+hint: 19	1164	Variable 'value' has been eliminated by optimizer	chkchkchk.c
+diagnostics: 0	122	Compilation Started	NewUnit_0.c
+diagnostics: 55	123	Compiled Successfully	NewUnit_0.c
+hint: 19	1164	Variable 'value' has been eliminated by optimizer	NewUnit_0.c
+diagnostics: 0	127	All files Compiled in 188 ms	 
+error: 1	355	Redefinition of 'tempread [NewUnit_0.c] '. 'tempread' already defined in 'chkchkchk.c'	NewUnit_0.c
+error: 2	355	Redefinition of 'tempread1 [NewUnit_0.c] '. 'tempread1' already defined in 'chkchkchk.c'	NewUnit_0.c
+error: 3	355	Redefinition of 'readtostr [NewUnit_0.c] '. 'readtostr' already defined in 'chkchkchk.c'	NewUnit_0.c
+error: 17	355	Redefinition of 'map [NewUnit_0.c] '. 'map' already defined in 'chkchkchk.c'	NewUnit_0.c
+error: 23	355	Redefinition of 'main [NewUnit_0.c] '. 'main' already defined in 'chkchkchk.c'	NewUnit_0.c
+error: 0	102	Finished (with errors): 16 Dec 2020, 13:31:07	chkchkchk.mcppi

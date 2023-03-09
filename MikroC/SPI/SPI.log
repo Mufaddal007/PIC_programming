@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F72 -DL -O11111114 -fo4 -N"C:\Users\Mufaddal Darbar\Desktop\Project dumps\mikroc\SPI\SPI.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Mufaddal Darbar\Desktop\Project dumps\mikroc\SPI\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "SPI.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 144 [bytes], Available ROM: 2048 [bytes]	 
+diagnostics: 0	122	Compilation Started	SPI.c
+diagnostics: 24	123	Compiled Successfully	SPI.c
+diagnostics: 0	127	All files Compiled in 219 ms	 
+hint: 0	1144	Used RAM (bytes): 3 (2%)  Free RAM (bytes): 141 (98%)	Used RAM (bytes): 3 (2%)  Free RAM (bytes): 141 (98%)
+hint: 0	1144	Used ROM (program words): 50 (2%)  Free ROM (program words): 1998 (98%)	Used ROM (program words): 50 (2%)  Free ROM (program words): 1998 (98%)
+diagnostics: 0	125	Project Linked Successfully	SPI.mcppi
+diagnostics: 0	128	Linked in 31 ms	 
+diagnostics: 0	129	Project 'SPI.mcppi' completed: 406 ms	 
+diagnostics: 0	103	Finished successfully: 27 Jun 2021, 08:12:27	SPI.mcppi

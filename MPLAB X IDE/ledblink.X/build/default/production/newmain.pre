@@ -1,0 +1,24 @@
+
+# 1 "newmain.c"
+#pragma config FOSC = HS
+#pragma config WDTE = ON
+#pragma config PWRTE = OFF
+#pragma config BOREN = ON
+#pragma config LVP = OFF
+#pragma config CPD = OFF
+#pragma config WRT = OFF
+#pragma config CP = OFF
+
+
+int main()
+{
+TRISB0 = 0;
+while(1)
+{
+RB0 = 1;
+__delay_ms(1000);
+RB0 = 0;
+__delay_ms(1000);
+}
+return 0;
+}
